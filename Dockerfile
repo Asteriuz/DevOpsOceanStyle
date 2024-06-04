@@ -1,4 +1,3 @@
-
 ARG JDK_VERSION=17-jdk-slim
 
 FROM openjdk:${JDK_VERSION}
@@ -14,6 +13,10 @@ COPY . /app
 RUN chown -R ${APP_USER}:${APP_USER} /app
 
 USER ${APP_USER}
+
+RUN chmod +x mvnw
+
+RUN sed -i 's/\r$//' mvnw
 
 RUN ./mvnw clean package
 
