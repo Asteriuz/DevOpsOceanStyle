@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1782A49-F599-D78C-8E46-3207961B67C1" name="Vistoria">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>3A40208A-FE45-799A-7776-F7C63CE6DBD2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EDEC66C1-B0D3-E046-E7B1-637041DBB017">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>8EB49CB6-B1CE-AC0D-A181-8271A94DBFF6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="87E7BBA5-F2BA-04D1-1437-BB4D7BCF6F39">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>BFA9208E-555F-E2A2-986C-BF5B76E4ABAA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_ruido" id="92F20F73-4069-50DB-213A-45573BEA2169">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>441F56A3-C652-7230-7529-6D73230A78C1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultado" id="A0C41501-DDA2-EEC2-6F16-AF5E9E757094">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>B9230A70-05E2-AB3A-0B09-23FCCC09BF99</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacoes" id="71D4EB49-2854-5FCB-7966-21A2245D42B2">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>8328E7F9-F3FD-8852-6E09-EB87A85B1C00</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIE" id="E5FDACC2-567B-2D38-F6B5-DC0269FA570B">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 09:13:59 UTC</createdTime>
+<generatorID>5F5F8302-0B50-CCF6-1904-501B8E256FAF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="844853B6-AB33-60BE-4BC0-6ABB56B59DC8" name="Vistoria_PK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>7BAACC54-541E-069E-70C1-7AE7EDFBAD60</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDEC66C1-B0D3-E046-E7B1-637041DBB017"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="046B491D-81A6-5386-7EEB-0F07E464E5A1" name="Vistoria_Veiculo_FK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>440DE464-EA7C-6DD5-FD69-58E69AC55A6B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

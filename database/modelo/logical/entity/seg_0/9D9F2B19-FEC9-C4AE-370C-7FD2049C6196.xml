@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D9F2B19-FEC9-C4AE-370C-7FD2049C6196" name="Veiculo">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:11:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TIE" id="5E0CA037-09A8-6882-9E9F-A1D9512BEFBE">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:11:30 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="98B369A3-BA95-4B8B-7492-597BC60901B4">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-30 00:01:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="264B62E6-85B8-BAB9-0017-439BB1299A3C">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-30 00:01:35 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_motor" id="7E0F0E15-BA82-B7B8-B4C1-7B72A31B2D56">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:32:32 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sonar" id="AB7101C2-6454-E0A7-073F-0511D456198B">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:36:51 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="ACF14222-85C1-4E1B-C6FF-4E2F1A9D223D">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-30 00:01:11 UTC</createdTime>
+<generatorID>8DE5FCB4-C604-D16C-25BD-580A4B4D9BDD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<referedAttribute>7F3C9788-EA38-F2C9-19E5-266011ADC68D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="link_imagem" id="79217EB8-0587-3BD3-877A-CF0E3B06FC03">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-30 00:02:10 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B15721A9-BFDB-BC9A-F544-CD9D530A8913" name="Veiculo PK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:11:26 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E0CA037-09A8-6882-9E9F-A1D9512BEFBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

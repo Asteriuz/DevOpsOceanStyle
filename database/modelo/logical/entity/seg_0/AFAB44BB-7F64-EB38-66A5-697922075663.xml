@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFAB44BB-7F64-EB38-66A5-697922075663" name="Inspetor_Vistoria">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:58:50 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="25623649-D609-761E-5548-90CDEC892E69">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-29 23:59:05 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3F923FF0-3B85-D122-F0B2-82D9198AACD2">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:54:17 UTC</createdTime>
+<generatorID>9BAC19AF-5B63-7470-7DC1-40AB2A451F26</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<referedAttribute>21AE72B5-2BE6-8004-10F9-57309E992E22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="6D0E671B-BC09-11D1-35F6-6F60CE4E2F5F">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:32 UTC</createdTime>
+<generatorID>CD433307-DC27-D795-92ED-9A394B9B7D2F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="true"/>
+</engineerTo>
+<referedAttribute>8EB49CB6-B1CE-AC0D-A181-8271A94DBFF6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9770983-E6EB-C271-2491-E638F0F1A6F4" name="Inspetor_Vistorias PK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:54:21 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7CA3CA6B-F85C-9E0C-E92F-37CCE4FE3DE2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25623649-D609-761E-5548-90CDEC892E69</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

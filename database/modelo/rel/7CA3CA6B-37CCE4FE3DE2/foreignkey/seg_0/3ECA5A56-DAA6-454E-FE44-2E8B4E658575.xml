@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3ECA5A56-DAA6-454E-FE44-2E8B4E658575" containerWithKeyObject="F2E52D98-3860-E30E-7058-265E9244BB1A" localFKIndex="88B87D41-636C-1BCA-E6F9-CF748AE31E37" name="Inspetor_Vistoria_Inspetor_FK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>9BAC19AF-5B63-7470-7DC1-40AB2A451F26</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Inspetor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A4A7C73D-2EE7-FBB6-5390-3936F64824A8</referredTableID>
+<keyObject>BEDAD80D-4D07-FD30-B64B-5B35F4BA598C</keyObject>
+<referredKeyID>BEDAD80D-4D07-FD30-B64B-5B35F4BA598C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

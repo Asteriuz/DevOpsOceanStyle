@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2E52D98-3860-E30E-7058-265E9244BB1A" name="Inspetor_Vistoria">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>AFAB44BB-7F64-EB38-66A5-697922075663</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A4108E06-63FE-72E3-B04C-3A4C03378F6E">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>25623649-D609-761E-5548-90CDEC892E69</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inspetor_id" id="B19811CD-AEF4-1224-60AA-D17EF1D08533">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>3F923FF0-3B85-D122-F0B2-82D9198AACD2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3ECA5A56-DAA6-454E-FE44-2E8B4E658575" referredColumn="001F5E19-4D61-33A7-BB9D-1A7ACF9ED6D8"/>
+</associations>
+</Column>
+<Column name="Vistoria_id" id="192665F5-9EFD-E714-3CA0-7CEAD9D11BDF">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>6D0E671B-BC09-11D1-35F6-6F60CE4E2F5F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D937D138-9989-E74F-59CD-A9A89C81C312" referredColumn="EDEC66C1-B0D3-E046-E7B1-637041DBB017"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="253F1445-85D1-0767-137E-A398400825FC" name="Inspetor_Vistoria_PK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>E9770983-E6EB-C271-2491-E638F0F1A6F4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4108E06-63FE-72E3-B04C-3A4C03378F6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88B87D41-636C-1BCA-E6F9-CF748AE31E37" name="Inspetor_Vistoria_Inspetor_FK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>9BAC19AF-5B63-7470-7DC1-40AB2A451F26</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B19811CD-AEF4-1224-60AA-D17EF1D08533"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37A27A27-4424-957E-07DD-A022509755E5" name="Inspetor_Vistoria_Vistoria_FK">
+<createdBy>augus</createdBy>
+<createdTime>2024-05-31 08:55:37 UTC</createdTime>
+<generatorID>CD433307-DC27-D795-92ED-9A394B9B7D2F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="192665F5-9EFD-E714-3CA0-7CEAD9D11BDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
