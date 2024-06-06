@@ -79,7 +79,8 @@ O arquivo `docker-compose.yml` descreve os serviços que compõem a aplicação 
 
 1. **Construir a imagem Docker**
     ```sh
-    docker build -t oceanstyle .
+    docker build --no-cache -t oceanstyle .
+    docker-compose build --no-cache
     ```
 
 2. **Executar a aplicação com Docker Compose**
@@ -91,36 +92,42 @@ O arquivo `docker-compose.yml` descreve os serviços que compõem a aplicação 
     ```sh
    docker-compose exec db mysql -u root -p
     ```
+    
 Isso abrirá um prompt interativo do MySQL. Digite a senha quando solicitado (a senha padrão é password).
 
 4. **Criar um Banco de Dados**
     ```sh
    CREATE DATABASE meu_banco_de_dados;
     ```
+    
 5. **Selecionar o Banco de Dados Recém-Criado**
      ```sh
    USE meu_banco_de_dados;
     ```
+     
 6. **Criar uma Tabela:**
      ```sh
-CREATE TABLE minha_tabela (
+    CREATE TABLE minha_tabela (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255),
-    idade INT
-);
+    idade INT);
     ```
+     
 7. **Inserir dados na Tabela**
      ```sh
-INSERT INTO minha_tabela (nome, idade) VALUE('Alice', 30), ('Bob', 35), ('Carol', 25);
+    INSERT INTO minha_tabela (nome, idade) VALUE('Alice', 30), ('Bob', 35), ('Carol', 25);
     ```
+     
 8. **Verificar os Dados**
      ```sh
-SELECT * FROM minha_tabela;
+    SELECT * FROM minha_tabela;
     ```
+     
 9. **Sair do Cliente MySQL**
      ```sh
-exit;
+    exit;
     ```
+     
 Isso irá construir a imagem, criar e iniciar os containers definidos no `docker-compose.yml`.Podendo também testar a persistência de dados.
 
 ## Notas

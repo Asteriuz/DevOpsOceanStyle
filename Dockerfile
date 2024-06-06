@@ -1,3 +1,4 @@
+
 ARG JDK_VERSION=17-jdk-slim
 
 FROM openjdk:${JDK_VERSION}
@@ -14,7 +15,7 @@ RUN chown -R ${APP_USER}:${APP_USER} /app
 
 USER ${APP_USER}
 
-RUN ./mvnw clean package
+RUN chmod +x mvnw
 
 EXPOSE 8080
 
