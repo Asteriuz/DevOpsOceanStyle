@@ -13,7 +13,7 @@
 	<artifactId>oceanstyle</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>oceanstyle</name>
-	<description>Api Ocean Style</description>
+	<description>Api Econo Med</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

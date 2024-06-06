@@ -14,10 +14,6 @@ RUN chown -R ${APP_USER}:${APP_USER} /app
 
 USER ${APP_USER}
 
-RUN chmod +x mvnw
-
-RUN sed -i 's/\r$//' mvnw
-
 RUN ./mvnw clean package
 
 EXPOSE 8080
